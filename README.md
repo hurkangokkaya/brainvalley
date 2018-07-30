@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Messenger Platform Sample -- node.js
 
 This project is an example server for Messenger Platform built in Node.js. With this app, you can send it messages and it will echo them back to you. You can also see examples of the different types of Structured Messages. 
@@ -34,3 +35,6 @@ An example of the "Send to Messenger" plugin and "Message Us" plugin are located
 ## License
 
 See the LICENSE file in the root directory of this source tree. Feel free to use and modify the code.
+=======
+# brainvalley
+>>>>>>> 4c27c979172556e7ea7331f59fb9cbcc1c6f8914
