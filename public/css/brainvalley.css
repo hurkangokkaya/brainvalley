@@ -1,0 +1,268 @@
+body {
+  font-family: Exo, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #00e;
+}
+
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-section {
+  border-bottom: 2px solid #ccc;
+  background-image: -webkit-linear-gradient(270deg, #e9e9e9, #fff);
+  background-image: linear-gradient(180deg, #e9e9e9, #fff);
+}
+
+.header-navbar {
+  background-color: transparent;
+}
+
+.download-section {
+  height: 600px;
+  background-image: url('../images/download_bg2.jpg');
+  background-size: cover;
+}
+
+.download-container {
+  text-align: center;
+}
+
+.download-heading {
+  margin-top: 40px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #fff;
+  font-size: 52px;
+  line-height: 60px;
+  text-align: center;
+  text-shadow: 0 2px 0 #000;
+}
+
+.download-paragraph {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 #000;
+}
+
+.download-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.intro-section {
+  padding-bottom: 0px;
+}
+
+.intro-heading {
+  font-size: 31px;
+}
+
+.intro-image {
+  margin-top: -70px;
+}
+
+.navbar-image {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.link-menu {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.nav-menu-style {
+  margin-top: 15px;
+}
+
+.download-image {
+  width: 300px;
+  border-radius: 20px;
+  opacity: 0.72;
+}
+
+.logo-section {
+  padding: 30px 20px;
+  background-color: #313131;
+}
+
+.logo-image {
+  border-radius: 20px;
+}
+
+.policy-container {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer-paragraph {
+  font-weight: 700;
+  text-align: center;
+}
+
+.footer-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e9e9e9;
+}
+
+.footer-div {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.footer-div-link {
+  margin-right: 5px;
+}
+
+.footer-link-image {
+  width: 30px;
+}
+
+.navbar-container {
+  background-color: transparent;
+}
+
+.facebook-style {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.video-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.video-container {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+
+.video-heading {
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .download-section {
+    height: 500px;
+    background-position: 50% 50%;
+  }
+  .intro-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .intro-image {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-image {
+    margin-top: 10px;
+  }
+  .logo-image {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .video-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .download-section {
+    background-position: 50% 50%;
+  }
+  .link-menu {
+    color: #fff;
+  }
+  .nav-menu-style {
+    margin-top: 0px;
+    background-color: #646464;
+  }
+  .menu-button {
+    height: 100px;
+    padding-top: 40px;
+  }
+  .menu-button.w--open {
+    padding-top: 40px;
+    background-color: #646464;
+  }
+  .video-heading {
+    font-size: 24px;
+  }
+}
+
